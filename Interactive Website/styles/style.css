@@ -1,0 +1,22 @@
+body {
+    background-color: brown;
+    display: grid;
+    
+}
+
+.title-background {
+    background-color: red;
+    padding-left: 20vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 120%;
+}
+
+.main {
+    background-color: #1F51FF;
+    border-radius: 20px;
+    justify-self: center;
+}
+footer {
+    background-color: yellow;
+}

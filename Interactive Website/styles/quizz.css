@@ -1,0 +1,54 @@
+body {
+    background-color: #ADD8E6;
+    display: block;
+}
+
+h2 {
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
+#randomInfo {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+}
+
+#options {
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+}
+
+.main-quizz {
+    background-color: red;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.answer {
+    background-color: #1a4389;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    display: block;
+    width: 55%;
+    height: 40px;
+    margin: 2px auto;
+}
+
+.answer:hover {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.moreOptions {
+    color: blue;
+}

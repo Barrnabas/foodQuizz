@@ -1,0 +1,523 @@
+﻿[
+    {
+        "Élelmiszer": "Tej (2,8%-os)",
+        "Kalória (kcal)": "60",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "3",
+        "Szénhidrát (g)": "5",
+        "Ca (mg)": "120"
+    },
+    {
+        "Élelmiszer": "Trappista sajt",
+        "Kalória (kcal)": "372",
+        "Fehérje (g)": "28",
+        "Zsír (g)": "28",
+        "Szénhidrát (g)": "2",
+        "Ca (mg)": "600"
+    },
+    {
+        "Élelmiszer": "Félzsíros tehéntúró",
+        "Kalória (kcal)": "143",
+        "Fehérje (g)": "16",
+        "Zsír (g)": "7",
+        "Szénhidrát (g)": "4",
+        "Ca (mg)": "80"
+    },
+    {
+        "Élelmiszer": "Tolnai sovány sajt",
+        "Kalória (kcal)": "219",
+        "Fehérje (g)": "31",
+        "Zsír (g)": "10",
+        "Szénhidrát (g)": "2",
+        "Ca (mg)": "400"
+    },
+    {
+        "Élelmiszer": "Joghurt, natúr",
+        "Kalória (kcal)": "65",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "4",
+        "Szénhidrát (g)": "5"
+    },
+    {
+        "Élelmiszer": "Tejföl (20%-os)",
+        "Kalória (kcal)": "209",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "20",
+        "Szénhidrát (g)": "4",
+        "koleszterin (mg)": "60"
+    },
+    {
+        "Élelmiszer": "Habtejszín",
+        "Kalória (kcal)": "294",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "30",
+        "Szénhidrát (g)": "3",
+        "koleszterin (mg)": "109"
+    },
+    {
+        "Élelmiszer": "Medve sajt",
+        "Kalória (kcal)": "254",
+        "Fehérje (g)": "13",
+        "Zsír (g)": "21",
+        "Szénhidrát (g)": "4"
+    },
+    {
+        "Élelmiszer": "Kenyér (félbarna)",
+        "Kalória (kcal)": "259",
+        "Fehérje (g)": "10",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "52"
+    },
+    {
+        "Élelmiszer": "Zsemle (1 db)",
+        "Kalória (kcal)": "147",
+        "Fehérje (g)": "5",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "31"
+    },
+    {
+        "Élelmiszer": "Kifli (1 db)",
+        "Kalória (kcal)": "120",
+        "Fehérje (g)": "4",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "25"
+    },
+    {
+        "Élelmiszer": "Bakonyi barna kenyér",
+        "Kalória (kcal)": "245",
+        "Fehérje (g)": "9",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "51",
+        "ÖÉR (g)": "8"
+    },
+    {
+        "Élelmiszer": "Kalács (foszlós)",
+        "Kalória (kcal)": "403",
+        "Fehérje (g)": "12",
+        "Zsír (g)": "11",
+        "Szénhidrát (g)": "65"
+    },
+    {
+        "Élelmiszer": "Száraz tészta (4 tojásos)",
+        "Kalória (kcal)": "384",
+        "Fehérje (g)": "15",
+        "Zsír (g)": "3",
+        "Szénhidrát (g)": "73"
+    },
+    {
+        "Élelmiszer": "Finomliszt (BL 55)",
+        "Kalória (kcal)": "368",
+        "Fehérje (g)": "12",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "76"
+    },
+    {
+        "Élelmiszer": "Zsemlemorzsa",
+        "Kalória (kcal)": "344",
+        "Fehérje (g)": "10",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "73"
+    },
+    {
+        "Élelmiszer": "Búzakorpa",
+        "Kalória (kcal)": "169",
+        "Fehérje (g)": "15",
+        "Zsír (g)": "5",
+        "Szénhidrát (g)": "17",
+        "ÖÉR (g)": "42"
+    },
+    {
+        "Élelmiszer": "Búzacsíra",
+        "Kalória (kcal)": "342",
+        "Fehérje (g)": "25",
+        "Zsír (g)": "8",
+        "Szénhidrát (g)": "42"
+    },
+    {
+        "Élelmiszer": "Zabpehely",
+        "Kalória (kcal)": "353",
+        "Fehérje (g)": "13",
+        "Zsír (g)": "5",
+        "Szénhidrát (g)": "64",
+        "ÖÉR (g)": "13"
+    },
+    {
+        "Élelmiszer": "Rizs",
+        "Kalória (kcal)": "346",
+        "Fehérje (g)": "8",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "78"
+    },
+    {
+        "Élelmiszer": "Szőlő",
+        "Kalória (kcal)": "81",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "18"
+    },
+    {
+        "Élelmiszer": "Alma",
+        "Kalória (kcal)": "35",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "7"
+    },
+    {
+        "Élelmiszer": "Meggy",
+        "Kalória (kcal)": "57",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "11"
+    },
+    {
+        "Élelmiszer": "Banán",
+        "Kalória (kcal)": "105",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "24",
+        "Kálium (mg)": "500"
+    },
+    {
+        "Élelmiszer": "Mazsola",
+        "Kalória (kcal)": "287",
+        "Fehérje (g)": "2",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "65",
+        "Kálium (mg)": "1000"
+    },
+    {
+        "Élelmiszer": "Narancs",
+        "Kalória (kcal)": "41",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "9",
+        "C-vitamin": "50"
+    },
+    {
+        "Élelmiszer": "Görögdinnye",
+        "Kalória (kcal)": "31",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "7"
+    },
+    {
+        "Élelmiszer": "Dió",
+        "Kalória (kcal)": "637",
+        "Fehérje (g)": "19",
+        "Zsír (g)": "57",
+        "Szénhidrát (g)": "12",
+        "Ca (mg)": "202",
+        "ÖÉR (g)": "5",
+        "Kálium (mg)": "544"
+    },
+    {
+        "Élelmiszer": "Mák",
+        "Kalória (kcal)": "524",
+        "Fehérje (g)": "21",
+        "Zsír (g)": "38",
+        "Szénhidrát (g)": "24",
+        "Ca (mg)": "968",
+        "ÖÉR (g)": "20",
+        "Kálium (mg)": "1105"
+    },
+    {
+        "Élelmiszer": "Lenmag",
+        "Kalória (kcal)": "378",
+        "Fehérje (g)": "24",
+        "Zsír (g)": "31",
+        "Szénhidrát (g)": "1"
+    },
+    {
+        "Élelmiszer": "Gesztenye",
+        "Kalória (kcal)": "164",
+        "Fehérje (g)": "5",
+        "Zsír (g)": "2",
+        "Szénhidrát (g)": "33"
+    },
+    {
+        "Élelmiszer": "Burgonya",
+        "Kalória (kcal)": "94",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "20",
+        "Kálium (mg)": "446"
+    },
+    {
+        "Élelmiszer": "Sárgarépa",
+        "Kalória (kcal)": "40",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "8",
+        "Nátrium (mg)": "125"
+    },
+    {
+        "Élelmiszer": "Kukorica",
+        "Kalória (kcal)": "128",
+        "Fehérje (g)": "5",
+        "Zsír (g)": "2",
+        "Szénhidrát (g)": "24",
+        "ÖÉR (g)": "4"
+
+    },
+    {
+        "Élelmiszer": "Zöldborsó",
+        "Kalória (kcal)": "89",
+        "Fehérje (g)": "7",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "14",
+        "ÖÉR (g)": "4"
+    },
+    {
+        "Élelmiszer": "Zöldbab",
+        "Kalória (kcal)": "41",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "7"
+    },
+    {
+        "Élelmiszer": "Lencse",
+        "Kalória (kcal)": "335",
+        "Fehérje (g)": "26",
+        "Zsír (g)": "2",
+        "Szénhidrát (g)": "53"
+    },
+    {
+        "Élelmiszer": "Tök (főző)",
+        "Kalória (kcal)": "30",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "6"
+    },
+    {
+        "Élelmiszer": "Csiperke gomba",
+        "Kalória (kcal)": "39",
+        "Fehérje (g)": "6",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "3"
+    },
+    {
+        "Élelmiszer": "Sertéshús (comb)",
+        "Kalória (kcal)": "159",
+        "Fehérje (g)": "21",
+        "Zsír (g)": "8",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Sertésdagadó",
+        "Kalória (kcal)": "429",
+        "Fehérje (g)": "12",
+        "Zsír (g)": "42",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Csirkemell",
+        "Kalória (kcal)": "110",
+        "Fehérje (g)": "25",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "1"
+    },
+    {
+        "Élelmiszer": "Marhalapocka",
+        "Kalória (kcal)": "143",
+        "Fehérje (g)": "21",
+        "Zsír (g)": "6",
+        "Szénhidrát (g)": "1"
+    },
+    {
+        "Élelmiszer": "Csirkemáj",
+        "Kalória (kcal)": "126",
+        "Fehérje (g)": "20",
+        "Zsír (g)": "4",
+        "Szénhidrát (g)": "3",
+        "koleszterin (mg)": "555"
+    },
+    {
+        "Élelmiszer": "Busa",
+        "Kalória (kcal)": "92",
+        "Fehérje (g)": "18",
+        "Zsír (g)": "2",
+        "Szénhidrát (g)": "1"
+    },
+    {
+        "Élelmiszer": "Ponty (tükör)",
+        "Kalória (kcal)": "143",
+        "Fehérje (g)": "16",
+        "Zsír (g)": "9",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Heck",
+        "Kalória (kcal)": "80",
+        "Fehérje (g)": "17",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Szardínia (olajoshal konzerv)",
+        "Kalória (kcal)": "284",
+        "Fehérje (g)": "26",
+        "Zsír (g)": "21",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Párizsi",
+        "Kalória (kcal)": "213",
+        "Fehérje (g)": "12",
+        "Zsír (g)": "18",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Csirkemell sonka",
+        "Kalória (kcal)": "130",
+        "Fehérje (g)": "22",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "7"
+    },
+    {
+        "Élelmiszer": "Téliszalámi",
+        "Kalória (kcal)": "519",
+        "Fehérje (g)": "25",
+        "Zsír (g)": "46",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Kenőmájas",
+        "Kalória (kcal)": "316",
+        "Fehérje (g)": "16",
+        "Zsír (g)": "28",
+        "Szénhidrát (g)": "0",
+        "koleszterin (mg)": "224"
+    },
+    {
+        "Élelmiszer": "Füstölt szalonna",
+        "Kalória (kcal)": "693",
+        "Fehérje (g)": "9",
+        "Zsír (g)": "73",
+        "Szénhidrát (g)": "0",
+        "koleszterin (mg)": "105"
+    },
+    {
+        "Élelmiszer": "Tojás (1 db)",
+        "Kalória (kcal)": "66",
+        "Fehérje (g)": "5",
+        "Zsír (g)": "5",
+        "Szénhidrát (g)": "0",
+        "koleszterin (mg)": "180"
+    },
+    {
+        "Élelmiszer": "Étolaj (napraforgó)",
+        "Kalória (kcal)": "903",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "100",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Vaj",
+        "Kalória (kcal)": "727",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "80",
+        "Szénhidrát (g)": "1",
+        "koleszterin (mg)": "230"
+    },
+    {
+        "Élelmiszer": "Natúr vajkrém",
+        "Kalória (kcal)": "380",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "40",
+        "Szénhidrát (g)": "2"
+    },
+    {
+        "Élelmiszer": "Rama (sütő margarin)",
+        "Kalória (kcal)": "635",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "70",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Delma light",
+        "Kalória (kcal)": "182",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "20",
+        "Szénhidrát (g)": "0"
+    },
+    {
+        "Élelmiszer": "Sertészsír",
+        "Kalória (kcal)": "902",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "100",
+        "Szénhidrát (g)": "0",
+        "koleszterin (mg)": "86"
+    },
+    {
+        "Élelmiszer": "Kristálycukor",
+        "Kalória (kcal)": "402",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "100"
+    },
+    {
+        "Élelmiszer": "Háztartási keksz",
+        "Kalória (kcal)": "414",
+        "Fehérje (g)": "10",
+        "Zsír (g)": "7",
+        "Szénhidrát (g)": "78"
+    },
+    {
+        "Élelmiszer": "Korpovit keksz (klasszikus, 1 db)",
+        "Kalória (kcal)": "20",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "3"
+    },
+    {
+        "Élelmiszer": "Abonett (klasszik, natúr 1 szelet)",
+        "Kalória (kcal)": "19",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "4"
+    },
+    {
+        "Élelmiszer": "Müzliszelet (Cerbona, gyümölcsös 20 g)",
+        "Kalória (kcal)": "79",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "2",
+        "Szénhidrát (g)": "13"
+    },
+    {
+        "Élelmiszer": "Túró rudi (pöttyös, 30 g)",
+        "Kalória (kcal)": "106",
+        "Fehérje (g)": "3",
+        "Zsír (g)": "5",
+        "Szénhidrát (g)": "12"
+    },
+    {
+        "Élelmiszer": "Étcsokoládé (Lindl Lindor 60 %-os kakaó tartalmú)",
+        "Kalória (kcal)": "566",
+        "Fehérje (g)": "10",
+        "Zsír (g)": "41",
+        "Szénhidrát (g)": "34"
+    },
+    {
+        "Élelmiszer": "Coca cola",
+        "Kalória (kcal)": "42",
+        "Fehérje (g)": "0",
+        "Zsír (g)": "0",
+        "Szénhidrát (g)": "11",
+        "koffein (mg)": "11",
+        "foszforsav (mg)": "12"
+    },
+    {
+        "Élelmiszer": "Almalé (100%-os, szűrt)",
+        "Kalória (kcal)": "43",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "10"
+    },
+    {
+        "Élelmiszer": "Narancslé (100%-os, rostos)",
+        "Kalória (kcal)": "44",
+        "Fehérje (g)": "1",
+        "Zsír (g)": "1",
+        "Szénhidrát (g)": "9"
+    }
+]
