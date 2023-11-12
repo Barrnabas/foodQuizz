@@ -116,6 +116,10 @@ fetch('/resources/foodData.json')
 
                     originalInfo = `${chosenProperty}: ${randomItem[chosenProperty]}`;
                     correctAnswer = randomItem["Élelmiszer"];
+                    correctAnswerIndex = Math.floor(Math.random() * 4);
+
+                    // Set selectedHelpItem to the original item
+                    selectedHelpItem = randomItem;
 
                     // Create an array of answer choices including the correct answer
                     const answerChoices = [correctAnswer];
@@ -136,22 +140,23 @@ fetch('/resources/foodData.json')
                         // Shuffle the answer choices
                         const shuffledChoices = shuffleArray(answerChoices);
 
-                        // Determine the correct answer index based on the shuffled choices
-                        const correctAnswerIndex = shuffledChoices.indexOf(correctAnswer);
+                        // Set correctAnswerIndex based on the new position of the correct answer
+                        correctAnswerIndex = shuffledChoices.indexOf(correctAnswer);
 
                         // Add the question to the quizQuestions array
                         quizQuestions.push({
                             originalInfo,
                             correctAnswer,
                             correctAnswerIndex,
-                            selectedHelpItem: randomItem,
-                            answerChoices: shuffledChoices,
+                            selectedHelpItem,
+                            answerChoices: shuffledChoices, // Assign shuffled choices to answerChoices
                         });
                     } else {
                         console.error("answerChoices is not a valid array or is empty:", answerChoices);
                     }
                 }
-                
+
+
                 // Shuffle the quizQuestions array
                 quizQuestions = shuffleArray(quizQuestions);
 
