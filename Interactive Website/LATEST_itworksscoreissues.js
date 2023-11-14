@@ -1,5 +1,4 @@
-// A MŰKÖDŐ KÓD, a PONTSZÁMOZÁS MÉG MINDIG NEM JÓ QUIZ ENDED TÖBB HELYEN IS OTT VAN
-
+// A MŰKÖDŐ KÓD, HELP NEM TÖKÉLETES
 const infoElement = document.getElementById('randomInfo');
 let correctAnswerIndex;
 let correctAnswer;
@@ -227,7 +226,7 @@ function handleNextButtonClick() {
         loadQuestion();
     } else {
         // Quiz ended
-        infoElement.textContent = `Quiz véget ért. Pontszámod: ${score}`;
+        infoElement.textContent = `Quiz Ended. Your score: ${score}`;
         nextButton.disabled = true;
     }
 }

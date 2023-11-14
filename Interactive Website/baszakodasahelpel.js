@@ -1,5 +1,3 @@
-// A MŰKÖDŐ KÓD, a PONTSZÁMOZÁS MÉG MINDIG NEM JÓ QUIZ ENDED TÖBB HELYEN IS OTT VAN
-
 const infoElement = document.getElementById('randomInfo');
 let correctAnswerIndex;
 let correctAnswer;
@@ -12,18 +10,19 @@ let quizQuestions = [];
 let score = 0;
 let currentQuestionIndex = 0;
 
-// Function to shuffle an array using Fisher-Yates (Knuth) Shuffle algorithm
+// Function to shuffle an array
 function shuffleArray(array) {
     // Check if the array is defined
-    if (!array || !Array.isArray(array)) {
-        throw new Error("Input is not a valid array.");
+    if (array && Array.isArray(array)) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    } else {
+        console.error("Input is not a valid array.");
     }
-    const newArray = [...array]; // Create a copy of the input array
-    for (let i = newArray.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-    }
-    return newArray; // Return the shuffled copy of the array
+
+    return array;
 }
 
 // Reset the background colors of all answer buttons
@@ -41,13 +40,19 @@ function loadQuestion() {
         // Ensure that the current question is defined
         if (currentQuestion) {
             // Set correctAnswerIndex and correctAnswer for the current question
-            correctAnswerIndex = currentQuestion.answerChoices.indexOf(currentQuestion.correctAnswer);
+            correctAnswerIndex = currentQuestion.correctAnswerIndex;
             correctAnswer = currentQuestion.correctAnswer;
 
             // Check if the previous question was answered correctly
             const previousAnsweredCorrectly = answerButtons[correctAnswerIndex].style.backgroundColor === 'green';
 
+            // Update the score based on the previous question
+            if (currentQuestionIndex > 0 && previousAnsweredCorrectly) {
+                score++;
+            }
+
             console.log('Loaded question:', currentQuestion);
+            console.log('Answered correctly:', previousAnsweredCorrectly);
             console.log('Score before:', score);
 
             // Display the new question and answer choices
@@ -72,7 +77,6 @@ function loadQuestion() {
         nextButton.disabled = true;
     }
 }
-
 // Fetch your data and set up the initial random information
 fetch('/resources/foodData.json')
     .then(response => {
@@ -190,7 +194,7 @@ function setAnswerButtons() {
             console.log('Answer Choices:', answerChoices);
 
             // Shuffle the array
-            const shuffledChoices = answerChoices;
+            const shuffledChoices = shuffleArray(answerChoices);
 
             // Ensure that shuffledChoices is an array and not empty
             if (Array.isArray(shuffledChoices) && shuffledChoices.length > 0) {
@@ -217,17 +221,27 @@ function handleNextButtonClick() {
     // Increment the question index
     currentQuestionIndex++;
 
-    // Load the next question
+    // Check if the previous question was answered correctly
+    const previousAnsweredCorrectly = currentQuestionIndex > 1 && answerButtons[correctAnswerIndex].style.backgroundColor === 'green';
 
     console.log('currentQuestionIndex:', currentQuestionIndex);
-    console.log('score:', score);
+    console.log('previousAnsweredCorrectly:', previousAnsweredCorrectly);
+    console.log('score before:', score);
+
+    // Increment the score if the previous question was answered correctly
+    if (previousAnsweredCorrectly) {
+        score++;
+    }
+
+    console.log('score after:', score);
+
     // Load the next question or display the final score
     if (currentQuestionIndex < quizQuestions.length) {
         // Load a new question
         loadQuestion();
     } else {
         // Quiz ended
-        infoElement.textContent = `Quiz véget ért. Pontszámod: ${score}`;
+        infoElement.textContent = `Quiz Ended. Your score: ${score}`;
         nextButton.disabled = true;
     }
 }
@@ -292,7 +306,10 @@ function handleHelpButtonClick() {
 
 helpButton.addEventListener('click', handleHelpButtonClick);
 
-// HELYES VÁLASZ ZÖLDDÉ CSINÁLÁSA ROLI APPROVED
+
+
+
+// HELYES VÁLASZ ZÖLDDÉ CSINÁLÁSA
 
 function handleButtonClick(event) {
     const clickedButton = event.target;
