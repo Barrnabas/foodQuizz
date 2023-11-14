@@ -1,5 +1,7 @@
 // A MŰKÖDŐ KÓD, a PONTSZÁMOZÁS MÉG MINDIG NEM JÓ QUIZ ENDED TÖBB HELYEN IS OTT VAN
 
+const JSON_HOST_BASE_URL = 'https://api.npoint.io';
+const JSON_HOST_BIN_URL = '/3f9119dbb4627d9ba8d5'
 const infoElement = document.getElementById('randomInfo');
 let correctAnswerIndex;
 let correctAnswer;
@@ -74,7 +76,7 @@ function loadQuestion() {
 }
 
 // Fetch your data and set up the initial random information
-fetch('/resources/foodData.json')
+fetch(JSON_HOST_BASE_URL + JSON_HOST_BIN_URL)
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not okay');
@@ -84,10 +86,10 @@ fetch('/resources/foodData.json')
     .then(data => {
         // Ensure that data is an array and not empty
         if (Array.isArray(data) && data.length > 0) {
-            filteredData = data.filter(item => 
-                item["Kalória (kcal)"] && 
-                item["Fehérje (g)"] && 
-                item["Zsír (g)"] && 
+            filteredData = data.filter(item =>
+                item["Kalória (kcal)"] &&
+                item["Fehérje (g)"] &&
+                item["Zsír (g)"] &&
                 item["Szénhidrát (g)"] &&
                 item["Élelmiszer"]
             );
@@ -149,7 +151,7 @@ fetch('/resources/foodData.json')
                         console.error("answerChoices is not a valid array or is empty:", answerChoices);
                     }
                 }
-                
+
                 // Shuffle the quizQuestions array
                 quizQuestions = shuffleArray(quizQuestions);
 
@@ -196,7 +198,7 @@ function setAnswerButtons() {
             if (Array.isArray(shuffledChoices) && shuffledChoices.length > 0) {
                 //Log the shuffles choices to the console for debugging
                 console.log('Shuffled Choices:', shuffledChoices);
-                
+
                 // Assign the shuffled choices to the buttons
                 for (let i = 0; i < answerButtons.length; i++) {
                     answerButtons[i].textContent = shuffledChoices[i];
