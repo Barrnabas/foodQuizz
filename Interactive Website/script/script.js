@@ -5,7 +5,6 @@ const JSON_HOST_BIN_URL = '/3f9119dbb4627d9ba8d5'
 const infoElement = document.getElementById('randomInfo');
 let correctAnswerIndex;
 let correctAnswer;
-let chosenProperty;
 let originalInfo;
 let additionalInfo;
 let filteredData;
@@ -39,7 +38,7 @@ function resetButtonColors() {
 function loadQuestion() {
     if (currentQuestionIndex < quizQuestions.length) {
         const currentQuestion = quizQuestions[currentQuestionIndex];
-
+        
         // Ensure that the current question is defined
         if (currentQuestion) {
             // Set correctAnswerIndex and correctAnswer for the current question
@@ -108,7 +107,7 @@ fetch(JSON_HOST_BASE_URL + JSON_HOST_BIN_URL)
                     );
 
                     // Randomly choose a property for the initial random information
-                    chosenProperty = additionalProperties.length > 0
+                        chosenProperty = additionalProperties.length > 0
                         ? additionalProperties[Math.floor(Math.random() * additionalProperties.length)]
                         : baseProperties[Math.floor(Math.random() * baseProperties.length)];
 
@@ -128,11 +127,15 @@ fetch(JSON_HOST_BASE_URL + JSON_HOST_BIN_URL)
                             const randomIncorrectItem = filteredData[randomIncorrectIndex]["Élelmiszer"];
 
                             // Ensure that the incorrect answer is not already in answerChoices
-       //and does not have the same properties as the question ADDED LATER így elvileg nem adja ugyan azt az értéket ami a chosen property
-                            const hasSameProperties = baseProperties.every(prop =>
-                                randomItem[prop] === filteredData[randomIncorrectIndex][prop]
-                                );
-                            if (!answerChoices.includes(randomIncorrectItem) && !hasSameProperties) {
+                            //and does not have the same properties as the question ADDED LATER így elvileg nem adja ugyan azt az értéket ami a chosen property
+                            let hasSameBaseProperties = false;
+                            baseProperties.forEach(prop => {
+                                if(randomItem[prop] === filteredData[randomIncorrectIndex][prop]) {
+                                    hasSameBaseProperties = true;
+                                }
+                            });
+
+                            if (!answerChoices.includes(randomIncorrectItem) && !hasSameBaseProperties) {
                                 answerChoices.push(randomIncorrectItem);
                             }
                         }
@@ -145,6 +148,7 @@ fetch(JSON_HOST_BASE_URL + JSON_HOST_BIN_URL)
 
                         // Add the question to the quizQuestions array
                         quizQuestions.push({
+                            selectedNutrient: chosenProperty,
                             originalInfo,
                             correctAnswer,
                             correctAnswerIndex,
@@ -245,10 +249,9 @@ nextButton.addEventListener('click', handleNextButtonClick);
 // HELP BUTTON FUNCTION
 
 // Assuming you declared getRandomAdditionalProperty somewhere in your code, for example:
-function getRandomAdditionalProperty(filteredProperties, chosenProperty) {
-    const availableProperties = filteredProperties.filter(prop => prop !== chosenProperty);
-    const randomIndex = Math.floor(Math.random() * availableProperties.length);
-    return availableProperties[randomIndex];
+function getRandomAdditionalProperty(filteredProperties) {
+    const randomIndex = Math.floor(Math.random() * filteredProperties.length);
+    return filteredProperties[randomIndex];
 }
 
 const helpButton = document.getElementById('help');
@@ -256,6 +259,7 @@ const helpButton = document.getElementById('help');
 function handleHelpButtonClick() {
     if (selectedHelpItem && correctAnswerIndex !== undefined) {
         const randomItem = selectedHelpItem;
+        let currentProperty = quizQuestions[currentQuestionIndex].selectedNutrient;
 
         // Extract all properties from the randomItem
         const allProperties = Object.keys(randomItem);
@@ -269,11 +273,11 @@ function handleHelpButtonClick() {
 
         console.log('Original Item Properties:', originalItemProperties);
 
-        console.log('Chosen Property:', chosenProperty);
+        console.log('Chosen Property:', currentProperty);
 
         // Filter out properties that are not related to the originally selected "Élelmiszer"
         const filteredProperties = originalItemProperties.filter(prop =>
-            prop !== chosenProperty && randomItem[prop] !== undefined
+            prop !== currentProperty && randomItem[prop] !== undefined
         );
 
         console.log('Filtered Properties:', filteredProperties);
@@ -282,7 +286,7 @@ function handleHelpButtonClick() {
             console.error('No filtered properties found. Check your data structure.');
         }
 
-        const randomAdditionalProperty = getRandomAdditionalProperty(filteredProperties, chosenProperty);
+        const randomAdditionalProperty = getRandomAdditionalProperty(filteredProperties, currentProperty);
 
         console.log('Random Additional Property:', randomAdditionalProperty);
 
