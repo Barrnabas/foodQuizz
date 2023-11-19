@@ -1,14 +1,54 @@
 body {
     background-color: #ADD8E6;
-    display: block;
-    display: inline-block;
+
+}
+
+
+#back {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    margin-right: 10px;
+
+}
+
+#back:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+
+#back:active {
+	position:relative;
+	top:1px;
 }
 
 .header-text {
     margin-right: 10px;
+    font-size: 2.2em;
+}
+
+header {
+    padding-left: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+	margin-left: -10px;
+    display: flex;
+    align-items: center;
+    background-color: #89cae0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 h2 {
-    color: white;
     font-family: cursive;
     font-size: 2vw;
     text-align: center;
@@ -28,21 +68,16 @@ h2 {
     text-align: center;
 }
 
-header {
-    border: solid;
-    padding-left: 20vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-}
-
 .main-quizz {
-    border: solid;
     padding-top: 1px;
     padding-bottom: 1px;
     margin: 50px;
+    border-radius: 15px;
+    justify-self: center;
+	margin-top: 5vh;
+	padding: 2vh;
+	background-color: #89cae0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .answer {
@@ -54,7 +89,7 @@ header {
     border-radius: 1vh;
     display: block;
     width: 55%;
-    height: 40px;
+    height: 50px;
     margin: 5px auto;
 }
 
@@ -91,11 +126,16 @@ header {
 	text-shadow:0px 1px 0px #ffee66;
     margin-right: 10px;
 }
-.myButton:hover {
+.qButtons:hover {
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 	background-color:#ffab23;
 }
-.myButton:active {
+.qButtons:active {
 	position:relative;
 	top:1px;
+}
+
+.moreOptions {
+    display: flex;
+    justify-content: center;
 }
