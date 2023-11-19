@@ -128,7 +128,11 @@ fetch(JSON_HOST_BASE_URL + JSON_HOST_BIN_URL)
                             const randomIncorrectItem = filteredData[randomIncorrectIndex]["Élelmiszer"];
 
                             // Ensure that the incorrect answer is not already in answerChoices
-                            if (!answerChoices.includes(randomIncorrectItem)) {
+       //and does not have the same properties as the question ADDED LATER így elvileg nem adja ugyan azt az értéket ami a chosen property
+                            const hasSameProperties = baseProperties.every(prop =>
+                                randomItem[prop] === filteredData[randomIncorrectIndex][prop]
+                                );
+                            if (!answerChoices.includes(randomIncorrectItem) && !hasSameProperties) {
                                 answerChoices.push(randomIncorrectItem);
                             }
                         }
@@ -313,7 +317,7 @@ function handleButtonClick(event) {
         // Disable all buttons after a correct answer
         disableAllButtons();
 
-        alert('Correct answer!');
+        //alert('Correct answer!');
     } else {
         // Change the background color to red for wrong answer
         clickedButton.style.backgroundColor = 'red';
@@ -324,7 +328,7 @@ function handleButtonClick(event) {
         // Disable all buttons after a wrong answer
         disableAllButtons();
 
-        alert('Wrong answer. Try again!');
+        //alert('Wrong answer. Try again!');
     }
 }
 
