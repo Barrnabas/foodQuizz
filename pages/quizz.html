@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/quizz.css">
+    <link rel="icon" href="">
+
+    <title>Élelmiszerek tápanyagtartalma quizz</title>
+</head>
+
+<body id="body">
+    <header>
+        <a href="../index.html">
+            <button id="back">Vissza</button>
+        </a>
+        <h1 class="header-text">Tápanyag Teszt</h1>
+    </header>
+    
+    <section class="main-quizz">
+        <div class="scoreboard">
+            <div class="score-badge">Kérdés: <span id="questionText">1</span>/10</div>
+            <div class="score-badge highlight">Pontszám: <span id="scoreText">0</span></div>
+        </div>
+
+        <div class="questionContainer">
+            <div id="question">
+                <p id="randomInfo">Kérdés betöltése...</p>
+            </div>
+        </div>
+
+        <div id="options">
+            <button class="answer" id="answer1"></button>
+            <button class="answer" id="answer2"></button>
+            <button class="answer" id="answer3"></button>
+            <button class="answer" id="answer4"></button>
+        </div>
+
+        <div class="moreOptions">
+            <button class="action-btn" id="help">Kérek egy segítséget</button>
+            <button class="action-btn next-btn" id="next" style="display: none;">Következő ➔</button>
+            <button class="action-btn restart-btn" id="restart" style="display: none;">Újra játszom ↺</button>
+        </div>
+    </section>
+
+    <script type="module" src="../src/app.js" defer></script>
+</body>
+
+</html>

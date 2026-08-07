@@ -1,0 +1,522 @@
+﻿[
+    {
+        "name": "Tej (2,8%-os)",
+        "calories": 60,
+        "protein": 3,
+        "fat": 3,
+        "carbs": 5,
+        "calcium": 120
+    },
+    {
+        "name": "Trappista sajt",
+        "calories": 372,
+        "protein": 28,
+        "fat": 28,
+        "carbs": 2,
+        "calcium": 600
+    },
+    {
+        "name": "Félzsíros tehéntúró",
+        "calories": 143,
+        "protein": 16,
+        "fat": 7,
+        "carbs": 4,
+        "calcium": 80
+    },
+    {
+        "name": "Tolnai sovány sajt",
+        "calories": 219,
+        "protein": 31,
+        "fat": 10,
+        "carbs": 2,
+        "calcium": 400
+    },
+    {
+        "name": "Joghurt, natúr",
+        "calories": 65,
+        "protein": 3,
+        "fat": 4,
+        "carbs": 5
+    },
+    {
+        "name": "Tejföl (20%-os)",
+        "calories": 209,
+        "protein": 3,
+        "fat": 20,
+        "carbs": 4,
+        "cholesterol": 60
+    },
+    {
+        "name": "Habtejszín",
+        "calories": 294,
+        "protein": 3,
+        "fat": 30,
+        "carbs": 3,
+        "cholesterol": 109
+    },
+    {
+        "name": "Medve sajt",
+        "calories": 254,
+        "protein": 13,
+        "fat": 21,
+        "carbs": 4
+    },
+    {
+        "name": "Kenyér (félbarna)",
+        "calories": 259,
+        "protein": 10,
+        "fat": 1,
+        "carbs": 52
+    },
+    {
+        "name": "Zsemle (1 db)",
+        "calories": 147,
+        "protein": 5,
+        "fat": 0,
+        "carbs": 31
+    },
+    {
+        "name": "Kifli (1 db)",
+        "calories": 120,
+        "protein": 4,
+        "fat": 0,
+        "carbs": 25
+    },
+    {
+        "name": "Bakonyi barna kenyér",
+        "calories": 245,
+        "protein": 9,
+        "fat": 1,
+        "carbs": 51,
+        "fiber": 8
+    },
+    {
+        "name": "Kalács (foszlós)",
+        "calories": 403,
+        "protein": 12,
+        "fat": 11,
+        "carbs": 65
+    },
+    {
+        "name": "Száraz tészta (4 tojásos)",
+        "calories": 384,
+        "protein": 15,
+        "fat": 3,
+        "carbs": 73
+    },
+    {
+        "name": "Finomliszt (BL 55)",
+        "calories": 368,
+        "protein": 12,
+        "fat": 1,
+        "carbs": 76
+    },
+    {
+        "name": "Zsemlemorzsa",
+        "calories": 344,
+        "protein": 10,
+        "fat": 1,
+        "carbs": 73
+    },
+    {
+        "name": "Búzakorpa",
+        "calories": 169,
+        "protein": 15,
+        "fat": 5,
+        "carbs": 17,
+        "fiber": 42
+    },
+    {
+        "name": "Búzacsíra",
+        "calories": 342,
+        "protein": 25,
+        "fat": 8,
+        "carbs": 42
+    },
+    {
+        "name": "Zabpehely",
+        "calories": 353,
+        "protein": 13,
+        "fat": 5,
+        "carbs": 64,
+        "fiber": 13
+    },
+    {
+        "name": "Rizs",
+        "calories": 346,
+        "protein": 8,
+        "fat": 0,
+        "carbs": 78
+    },
+    {
+        "name": "Szőlő",
+        "calories": 81,
+        "protein": 1,
+        "fat": 0,
+        "carbs": 18
+    },
+    {
+        "name": "Alma",
+        "calories": 35,
+        "protein": 0,
+        "fat": 0,
+        "carbs": 7
+    },
+    {
+        "name": "Meggy",
+        "calories": 57,
+        "protein": 1,
+        "fat": 1,
+        "carbs": 11
+    },
+    {
+        "name": "Banán",
+        "calories": 105,
+        "protein": 1,
+        "fat": 0,
+        "carbs": 24,
+        "potassium": 500
+    },
+    {
+        "name": "Mazsola",
+        "calories": 287,
+        "protein": 2,
+        "fat": 0,
+        "carbs": 65,
+        "potassium": 1000
+    },
+    {
+        "name": "Narancs",
+        "calories": 41,
+        "protein": 1,
+        "fat": 0,
+        "carbs": 9,
+        "vitaminC": 50
+    },
+    {
+        "name": "Görögdinnye",
+        "calories": 31,
+        "protein": 1,
+        "fat": 0,
+        "carbs": 7
+    },
+    {
+        "name": "Dió",
+        "calories": 637,
+        "protein": 19,
+        "fat": 57,
+        "carbs": 12,
+        "calcium": 202,
+        "fiber": 5,
+        "potassium": 544
+    },
+    {
+        "name": "Mák",
+        "calories": 524,
+        "protein": 21,
+        "fat": 38,
+        "carbs": 24,
+        "calcium": 968,
+        "fiber": 20,
+        "potassium": 1105
+    },
+    {
+        "name": "Lenmag",
+        "calories": 378,
+        "protein": 24,
+        "fat": 31,
+        "carbs": 1
+    },
+    {
+        "name": "Gesztenye",
+        "calories": 164,
+        "protein": 5,
+        "fat": 2,
+        "carbs": 33
+    },
+    {
+        "name": "Burgonya",
+        "calories": 94,
+        "protein": 3,
+        "fat": 0,
+        "carbs": 20,
+        "potassium": 446
+    },
+    {
+        "name": "Sárgarépa",
+        "calories": 40,
+        "protein": 1,
+        "fat": 0,
+        "carbs": 8,
+        "sodium": 125
+    },
+    {
+        "name": "Kukorica",
+        "calories": 128,
+        "protein": 5,
+        "fat": 2,
+        "carbs": 24,
+        "fiber": 4
+    },
+    {
+        "name": "Zöldborsó",
+        "calories": 89,
+        "protein": 7,
+        "fat": 0,
+        "carbs": 14,
+        "fiber": 4
+    },
+    {
+        "name": "Zöldbab",
+        "calories": 41,
+        "protein": 3,
+        "fat": 0,
+        "carbs": 7
+    },
+    {
+        "name": "Lencse",
+        "calories": 335,
+        "protein": 26,
+        "fat": 2,
+        "carbs": 53
+    },
+    {
+        "name": "Tök (főző)",
+        "calories": 30,
+        "protein": 1,
+        "fat": 0,
+        "carbs": 6
+    },
+    {
+        "name": "Csiperke gomba",
+        "calories": 39,
+        "protein": 6,
+        "fat": 0,
+        "carbs": 3
+    },
+    {
+        "name": "Sertéshús (comb)",
+        "calories": 159,
+        "protein": 21,
+        "fat": 8,
+        "carbs": 0
+    },
+    {
+        "name": "Sertésdagadó",
+        "calories": 429,
+        "protein": 12,
+        "fat": 42,
+        "carbs": 0
+    },
+    {
+        "name": "Csirkemell",
+        "calories": 110,
+        "protein": 25,
+        "fat": 1,
+        "carbs": 1
+    },
+    {
+        "name": "Marhalapocka",
+        "calories": 143,
+        "protein": 21,
+        "fat": 6,
+        "carbs": 1
+    },
+    {
+        "name": "Csirkemáj",
+        "calories": 126,
+        "protein": 20,
+        "fat": 4,
+        "carbs": 3,
+        "cholesterol": 555
+    },
+    {
+        "name": "Busa",
+        "calories": 92,
+        "protein": 18,
+        "fat": 2,
+        "carbs": 1
+    },
+    {
+        "name": "Ponty (tükör)",
+        "calories": 143,
+        "protein": 16,
+        "fat": 9,
+        "carbs": 0
+    },
+    {
+        "name": "Heck",
+        "calories": 80,
+        "protein": 17,
+        "fat": 1,
+        "carbs": 0
+    },
+    {
+        "name": "Szardínia (olajoshal konzerv)",
+        "calories": 284,
+        "protein": 26,
+        "fat": 21,
+        "carbs": 0
+    },
+    {
+        "name": "Párizsi",
+        "calories": 213,
+        "protein": 12,
+        "fat": 18,
+        "carbs": 0
+    },
+    {
+        "name": "Csirkemell sonka",
+        "calories": 130,
+        "protein": 22,
+        "fat": 1,
+        "carbs": 7
+    },
+    {
+        "name": "Téliszalámi",
+        "calories": 519,
+        "protein": 25,
+        "fat": 46,
+        "carbs": 0
+    },
+    {
+        "name": "Kenőmájas",
+        "calories": 316,
+        "protein": 16,
+        "fat": 28,
+        "carbs": 0,
+        "cholesterol": 224
+    },
+    {
+        "name": "Füstölt szalonna",
+        "calories": 693,
+        "protein": 9,
+        "fat": 73,
+        "carbs": 0,
+        "cholesterol": 105
+    },
+    {
+        "name": "Tojás (1 db)",
+        "calories": 66,
+        "protein": 5,
+        "fat": 5,
+        "carbs": 0,
+        "cholesterol": 180
+    },
+    {
+        "name": "Étolaj (napraforgó)",
+        "calories": 903,
+        "protein": 0,
+        "fat": 100,
+        "carbs": 0
+    },
+    {
+        "name": "Vaj",
+        "calories": 727,
+        "protein": 0,
+        "fat": 80,
+        "carbs": 1,
+        "cholesterol": 230
+    },
+    {
+        "name": "Natúr vajkrém",
+        "calories": 380,
+        "protein": 3,
+        "fat": 40,
+        "carbs": 2
+    },
+    {
+        "name": "Rama (sütő margarin)",
+        "calories": 635,
+        "protein": 0,
+        "fat": 70,
+        "carbs": 0
+    },
+    {
+        "name": "Delma light",
+        "calories": 182,
+        "protein": 0,
+        "fat": 20,
+        "carbs": 0
+    },
+    {
+        "name": "Sertészsír",
+        "calories": 902,
+        "protein": 0,
+        "fat": 100,
+        "carbs": 0,
+        "cholesterol": 86
+    },
+    {
+        "name": "Kristálycukor",
+        "calories": 402,
+        "protein": 0,
+        "fat": 0,
+        "carbs": 100
+    },
+    {
+        "name": "Háztartási keksz",
+        "calories": 414,
+        "protein": 10,
+        "fat": 7,
+        "carbs": 78
+    },
+    {
+        "name": "Korpovit keksz (klasszikus, 1 db)",
+        "calories": 20,
+        "protein": 1,
+        "fat": 1,
+        "carbs": 3
+    },
+    {
+        "name": "Abonett (klasszik, natúr 1 szelet)",
+        "calories": 19,
+        "protein": 1,
+        "fat": 0,
+        "carbs": 4
+    },
+    {
+        "name": "Müzliszelet (Cerbona, gyümölcsös 20 g)",
+        "calories": 79,
+        "protein": 1,
+        "fat": 2,
+        "carbs": 13
+    },
+    {
+        "name": "Túró rudi (pöttyös, 30 g)",
+        "calories": 106,
+        "protein": 3,
+        "fat": 5,
+        "carbs": 12
+    },
+    {
+        "name": "Étcsokoládé (Lindl Lindor 60 %-os kakaó tartalmú)",
+        "calories": 566,
+        "protein": 10,
+        "fat": 41,
+        "carbs": 34
+    },
+    {
+        "name": "Coca cola",
+        "calories": 42,
+        "protein": 0,
+        "fat": 0,
+        "carbs": 11,
+        "caffeine": 11,
+        "phosphoricAcid": 12
+    },
+    {
+        "name": "Almalé (100%-os, szűrt)",
+        "calories": 43,
+        "protein": 1,
+        "fat": 1,
+        "carbs": 10
+    },
+    {
+        "name": "Narancslé (100%-os, rostos)",
+        "calories": 44,
+        "protein": 1,
+        "fat": 1,
+        "carbs": 9
+    }
+]
